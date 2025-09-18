@@ -11,7 +11,7 @@ import seaborn as sns
 # -------------------------------
 # Load and prepare dataset
 # -------------------------------
-df = pd.read_csv("diabetes.csv")
+df = pd.read_csv("https://github.com/AstosM/Diabetes-Prediction/blob/main/app/diabetes.csv")
 
 X = df.drop(columns="Outcome", axis=1)
 Y = df["Outcome"]
