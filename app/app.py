@@ -34,7 +34,7 @@ test_acc = accuracy_score(Y_test, classifier.predict(X_test))
 # -------------------------------
 st.set_page_config(page_title="Diabetes Prediction App", page_icon="🩺", layout="wide")
 
-st.title("🩺 Diabetes Prediction App by ASHUTOSH & ISHA")
+st.title("🩺 Diabetes Prediction App by ASHUTOSH ")
 st.markdown("I'm ASHUTOSH , made a simple ML app using **Support Vector Machine (SVM)** to predict diabetes.")
 
 # Sidebar
