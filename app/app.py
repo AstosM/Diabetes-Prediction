@@ -12,7 +12,7 @@ import seaborn as sns
 # Load and prepare dataset
 # -------------------------------
 df = pd.read_csv("https://raw.githubusercontent.com/AstosM/Diabetes-Prediction/main/app/diabetes.csv")
-X = df.drop(columns="Outcome", axis=1)
+X = df.drop("Outcome", axis=1)
 Y = df["Outcome"]
 
 scaler = StandardScaler()
