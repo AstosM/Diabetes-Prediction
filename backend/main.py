@@ -12,9 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        # Add your deployed frontend URL here after deployment
-        # Example:
-        # "https://your-frontend.onrender.com",
+         "https://diabetes-prediction-6zwp.onrender.com/",
     ],
     allow_credentials=True,
     allow_methods=["*"],
