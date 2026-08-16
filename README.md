@@ -5,25 +5,25 @@ The application uses a **Linear Support Vector Machine (SVM)** machine-learning 
 
 ## 🚀 Features
 
-* FastAPI REST API
-* Diabetes risk prediction using Linear SVM
-* StandardScaler feature normalization
-* Dataset analytics
-* Model accuracy information
-* Health-check endpoint
-* Automatic API documentation with Swagger
-* Input validation using Pydantic
-* CORS support for frontend integration
+- FastAPI REST API
+- Diabetes risk prediction using Linear SVM
+- StandardScaler feature normalization
+- Dataset analytics
+- Model accuracy information
+- Health-check endpoint
+- Automatic API documentation with Swagger
+- Input validation using Pydantic
+- CORS support for frontend integration
 
 ## 🛠️ Technology Stack
 
-* **Python**
-* **FastAPI**
-* **Uvicorn**
-* **Pandas**
-* **Scikit-learn**
-* **Pydantic**
-* **Support Vector Machine (SVM)**
+- **Python**
+- **FastAPI**
+- **Uvicorn**
+- **Pandas**
+- **Scikit-learn**
+- **Pydantic**
+- **Support Vector Machine (SVM)**
 
 ## 📁 Project Structure
 
@@ -132,15 +132,15 @@ Example:
 
 Returns dataset statistics including:
 
-* Total records
-* Diabetic records
-* Non-diabetic records
-* Diabetes rate
-* Available features
-* Average glucose
-* Average BMI
-* Average age
-* Average blood pressure
+- Total records
+- Diabetic records
+- Non-diabetic records
+- Diabetes rate
+- Available features
+- Average glucose
+- Average BMI
+- Average age
+- Average blood pressure
 
 ### POST `/predict`
 
@@ -294,14 +294,14 @@ The API validates incoming patient data using Pydantic.
 
 Examples of validation limits include:
 
-* Pregnancies: `0–20`
-* Glucose: `0–300`
-* Blood Pressure: `0–200`
-* Skin Thickness: `0–100`
-* Insulin: `0–900`
-* BMI: `0–70`
-* Diabetes Pedigree: `0–5`
-* Age: `1–120`
+- Pregnancies: `0–20`
+- Glucose: `0–300`
+- Blood Pressure: `0–200`
+- Skin Thickness: `0–100`
+- Insulin: `0–900`
+- BMI: `0–70`
+- Diabetes Pedigree: `0–5`
+- Age: `1–120`
 
 Invalid input is automatically rejected by the API.
 
