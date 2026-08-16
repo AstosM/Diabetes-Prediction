@@ -12,7 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-         "https://diabetes-prediction-6zwp.onrender.com/",
+         "https://diabetes-prediction-6zwp.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
