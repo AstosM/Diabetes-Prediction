@@ -14,8 +14,8 @@ function Analytics() {
 
   useEffect(() => {
     Promise.all([
-      fetch("http://127.0.0.1:8000/analytics").then((res) => res.json()),
-      fetch("http://127.0.0.1:8000/model-info").then((res) => res.json()),
+      fetch("https://diabetes-prediction-m6o4.onrender.com/analytics").then((res) => res.json()),
+      fetch("https://diabetes-prediction-m6o4.onrender.com/model-info").then((res) => res.json()),
     ])
       .then(([analyticsData, modelData]) => {
         setAnalytics(analyticsData);
